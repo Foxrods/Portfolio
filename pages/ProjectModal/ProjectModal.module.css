@@ -1,0 +1,13 @@
+.container{
+    position: absolute;
+    left: 10%;
+    z-index: 100;
+    height: auto;
+    width: 100vmin;
+}
+
+.header{
+    height: 120px;
+    width: 100%;
+    background-color: #47464D;
+}

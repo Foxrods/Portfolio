@@ -1,0 +1,13 @@
+.container{
+    margin:auto;
+    width: 22vw;
+    height: 22vw;
+    box-shadow: 10px 10px 5px#ddd;
+    transition: 0.3s ease;
+}
+
+.container:hover{
+    cursor: pointer;
+    width: 22.3vw;
+    height: 22.3vw;
+}
