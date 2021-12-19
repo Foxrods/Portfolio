@@ -2,17 +2,25 @@ import styles from './ProjectModal.module.css';
 import Image from 'next/image'
 
 export default function ProjectModal(props){
-    if(props.src != null && props.src != undefined)
-        return(
+    return(
+        <div className={styles.outside}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <span className={styles.modalIcon}>
-                        <Image src={props.src} alt="modal icon" width={120} height={120}/>
-                    </span>
-                    <span>
+                    <div className={styles.modalTitle}>
                         {props.title}
+                    </div>
+                    <span className={styles.modalIcon}>
+                        <Image 
+                            src={props.src} 
+                            alt="modal icon" 
+                            width={160} 
+                            height={160}>
+                        </Image>
                     </span>
                 </div>
+                <div className={styles.description}>
+
+                </div>
             </div>
-        );
+        </div>);
 }

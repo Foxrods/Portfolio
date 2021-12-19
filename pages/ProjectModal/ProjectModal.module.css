@@ -1,13 +1,43 @@
-.container{
+.outside{
     position: absolute;
-    left: 10%;
+    height: 105vh;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    z-index: 50;
+}
+.container{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    left: calc((100vw - 100vmin) * 0.3);
+    margin: auto;
     z-index: 100;
     height: auto;
-    width: 100vmin;
+    width: calc((100vw - 100vmin) * 0.3 + 100vmin);
 }
 
 .header{
-    height: 120px;
+    display: flex;
+    height: 160px;
     width: 100%;
     background-color: #47464D;
+}
+
+.modalTitle{
+    display: flex;
+    width: 78%;
+    font-size: 2rem;
+    color: #f3f3f3;
+    margin-left: 3%;
+    font-weight: 200;
+    align-items: center;
+}
+
+.modalIcon{
+    float:right;
+}
+
+.description{
+    min-height: 300px;
+    background-color: #f3f3f3;
 }
