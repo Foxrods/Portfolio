@@ -31,7 +31,8 @@ export default function Projects(){
                     alt={"e-commerce CSOnline"} 
                     onClick={() => setModal(<ProjectModal 
                         src={raizen} 
-                        title="Raízen's customer service - CSOnline">
+                        title="Raízen's customer service - CSOnline"
+                        closeModal={() => setModal(null)}>
                         </ProjectModal>)}>
                 </ProjectIcon>
 
@@ -40,7 +41,8 @@ export default function Projects(){
                     alt={"sub-acquirer system Buspay"} 
                     onClick={() => setModal(<ProjectModal 
                         src={adquilinha} 
-                        title="Caruana's sub acquirer system - BUSPAY">
+                        title="Caruana's sub acquirer system - BUSPAY"
+                        closeModal={() => setModal(null)}>
                         </ProjectModal>)}>
                 </ProjectIcon>
 
@@ -49,7 +51,8 @@ export default function Projects(){
                     alt={"android apps for Cemig"} 
                     onClick={() => setModal(<ProjectModal 
                         src={cemig} 
-                        title="Android native applications for CEMIG">                                            
+                        title="Android native applications for CEMIG"
+                        closeModal={() => setModal(null)}>                                            
                         </ProjectModal>)}>
                 </ProjectIcon>
 
@@ -58,7 +61,10 @@ export default function Projects(){
                     alt={"face recognition"} 
                     onClick={() => setModal(<ProjectModal 
                         src={facerec} 
-                        title="Face recognition system using Python and OpenCV">
+                        title="Face recognition system using Python and OpenCV"
+                        showSeeMoreButton={true}
+                        closeModal={() => setModal(null)}
+                        link="https://github.com/Foxrods/FaceRecognitionSystem">
                         </ProjectModal>)}>
                 </ProjectIcon>
             </div>
@@ -68,7 +74,10 @@ export default function Projects(){
                     alt={"augmented reality app"}
                     onClick={() => setModal(<ProjectModal 
                         src={aug} 
-                        title="Augmented Reality appication using Unity and EasyAR">
+                        title="Augmented Reality appication using Unity and EasyAR"
+                        showSeeMoreButton={true}
+                        closeModal={() => setModal(null)}
+                        link="https://github.com/Foxrods/ARez">
                         </ProjectModal>)}>
                 </ProjectIcon>
 
@@ -77,7 +86,10 @@ export default function Projects(){
                     alt={"art gallery The Environment"}
                     onClick={() => setModal(<ProjectModal 
                         src={theenv} 
-                        title="The Environment">
+                        title="The Environment"
+                        showSeeMoreButton={true}
+                        closeModal={() => setModal(null)}
+                        link="https://the-environment.vercel.app/">
                         </ProjectModal>)}>
                 </ProjectIcon>
                 <ProjectIcon 
@@ -85,7 +97,10 @@ export default function Projects(){
                     alt={"threeJS alien star system"}
                     onClick={() => setModal(<ProjectModal 
                         src={ciri} 
-                        title="Star system with ThreeJS">
+                        title="Star system with ThreeJS"
+                        showSeeMoreButton={true}
+                        closeModal={() => setModal(null)}
+                        link="https://foxrods.github.io/CiriSolarSystem/">
                         </ProjectModal>)}>
                     </ProjectIcon>
                 <ProjectIcon 
@@ -93,7 +108,10 @@ export default function Projects(){
                     alt={"games done"}
                     onClick={() => setModal(<ProjectModal 
                         src={games} 
-                        title="Game Jam games">
+                        title="Games made with Unity"
+                        showSeeMoreButton={true}
+                        closeModal={() => setModal(null)}
+                        link="https://foxrods.itch.io/">
                         </ProjectModal>)}>
 
                     </ProjectIcon>
