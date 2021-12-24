@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Projects from './Projects'
+import Tech from './Tech'
 
 export default function Home() {
   return (
@@ -22,13 +23,14 @@ export default function Home() {
             Full Stack Developer
           </div>
           <div className={styles.summary}>
-            Over the past years, as an Engineer and a Full Stack Developer, I’ve specialized in backend and frontend development of complex and scalable projects, ensuring high standards of quality and abstraction. Whether working for big companies or startups, I’ll always act as a leader, pushing the company, myself, and my team towards success.
+            Over the past years, as an Engineer and a Full Stack Developer, I’ve specialized in back-end and front-end development of complex and scalable projects, ensuring high standards of quality and abstraction. Whether working for big companies or startups, I’ll always act as a leader, pushing the company, myself, and my team towards success.
             {/* <br/><br/><br/>
             Bellow you'll find some of these works. */}
           </div>
         </div>
       </main>
       <Projects></Projects>
+      <Tech></Tech>
       <footer className={styles.footer}>
         <div>
           <a
