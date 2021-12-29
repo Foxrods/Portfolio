@@ -6,8 +6,22 @@
     transition: 0.3s ease;
 }
 
+
 .container:hover{
     cursor: pointer;
     width: 22.3vw;
     height: 22.3vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+      width: 150vw;
+      height: 150vw;
+      margin-bottom: 30px;
+    }
+
+    .container:hover{
+        width: 155vw;
+        height: 155vw;
+    }
 }

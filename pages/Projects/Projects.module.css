@@ -18,3 +18,14 @@
     margin-bottom: 30px;
     display: flex;
 }
+
+@media only screen and (max-width: 1200px) {
+    .main{
+        width: 200vw;
+        height: calc(1200vw + 330px + 9vh);
+    }
+    .lines {
+      display: inline;
+      margin-top: -30px !important;
+    }
+}

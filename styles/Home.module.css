@@ -64,3 +64,27 @@
   font-size: 4.3vh;
   text-align: justify;
 }
+
+@media only screen and (max-width: 1200px) {
+  .main{
+      width: 200vw;
+  }
+  .imageContainer{
+    height: 80vh;
+    width: 95vw;
+  }
+  .titles {
+    padding-top: 5%;
+    font-size: 5.8vh;
+    margin-left: 50%;
+  }
+  .summary{
+    width: 87%;
+    margin-top: 20px;
+    font-size: 4vh;
+    text-align: left;
+  }
+  .footer{
+    width: 200vw;
+  }
+}
