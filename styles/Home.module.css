@@ -8,8 +8,8 @@
 }
 
 .imageContainer {
-  height: 90vh;
-  width: 40vw;
+  height: 94.1vh;
+  width: 90vh;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -36,16 +36,16 @@
 .footer div{
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 3.6vh;
   vertical-align: middle;
 }
 
 .titles {
   padding-top: 6%;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 8.2vh;
   color: #f3f3f3;
-  margin-left: 45%;
+  margin-left: 48%;
 }
 
 .myName{
@@ -58,9 +58,9 @@
 }
 
 .summary{
-  width: 80%;
+  width: 83%;
   font-weight: 200;
   margin-top: 20px;
-  font-size: 1.8rem;
+  font-size: 4.3vh;
   text-align: justify;
 }

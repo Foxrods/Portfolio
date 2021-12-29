@@ -18,14 +18,15 @@ export default function ProjectModal(props){
                     <div className={styles.modalTitle}>
                         {props.title}
                     </div>
-                    <span className={styles.modalIcon}>
+                    <div className={styles.modalIcon}>
                         <Image 
                             src={props.src} 
                             alt="modal icon" 
-                            width={160} 
-                            height={160}>
+                            width={200} 
+                            height={200}
+                            layout='responsive'>
                         </Image>
-                    </span>
+                    </div>
                 </div>
                 <div className={styles.description}>
                     {props.text}

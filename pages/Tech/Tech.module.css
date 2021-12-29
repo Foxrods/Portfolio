@@ -1,14 +1,14 @@
 .main {
     background-color: #f3f3f3;
-    height: 220vh;
+    height: calc(850px + 92vh);
     padding-top: 10px;
     color: #2C271C;
 }
 .title{
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 7.5vh;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .imgContainer{
     display: grid;
@@ -28,7 +28,7 @@
     text-align: center;
     font-weight: 400;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 4.5vh;
 }
 
 .img2nd{

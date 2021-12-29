@@ -1,13 +1,13 @@
 .main {
     background-color: #f3f3f3;
-    height: 120vh;
+    height: 55vw;
     padding-top: 10px;
     color: #2C271C;
 }
 
 .title{
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 7.5vh;
     text-align: center;
     margin-bottom: 10px;
 }
