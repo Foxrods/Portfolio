@@ -87,7 +87,7 @@ export default function Projects(){
                     alt={"augmented reality app"}
                     onClick={() => setModal(<ProjectModal 
                         src={aug} 
-                        title="Augmented Reality appication using Unity and EasyAR"
+                        title="Augmented Reality application using Unity and EasyAR"
                         text="Using C#, Unity, and the EasyAR SDK, I've created a generic Augmented Reality Android application, which allows users to interact with any object previously registered in its database. Objects like image triggers and 3D models and animations can be uploaded to the app's database for others to interact with. This app was built aiming at the retail business, that wishes to innovate with its customers."
                         showSeeMoreButton={true}
                         closeModal={() => setModal(null)}
