@@ -1,6 +1,6 @@
 .main {
     background-color: #f3f3f3;
-    height: 55vw;
+    height: auto;
     padding-top: 10px;
     color: #2C271C;
 }
@@ -13,19 +13,18 @@
 }
 
 .lines {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 1200px) {
     .main{
         width: 200vw;
-        height: calc(1200vw + 330px + 9vh);
     }
     .lines {
       display: inline;
-      margin-top: -30px !important;
+      padding-bottom: 30px;
     }
 }
