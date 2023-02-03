@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Rodolfo Rangel</title>
+        <title>Rodolfo Rodrigues</title>
       </Head>
 
       <main className={styles.main}>
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className={styles.titles}>
           <div className={styles.myName}>
-            RODOLFO RANGEL
+            RODOLFO RODRIGUES
           </div>
           <div className={styles.role}>
             Full Stack Developer
